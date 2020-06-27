@@ -40,5 +40,4 @@ public class MyFirstClass {
         double AB = sqrt(pow(AC,2) + pow(BC,2));
         System.out.println("Distance between point A and point B is " + AB + ".");
     }
-
 }
