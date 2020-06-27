@@ -31,13 +31,14 @@ public class MyFirstClass {
 
     @Test
     public void distanceBetweenTwoDots(){
-        double x1 = 3;
-        double y1 = 2;
-        double x2 = 12;
-        double y2 = 7;
+        int x1 = 3;
+        int y1 = 2;
+        int x2 = 12;
+        int y2 = 7;
         double AC = x2 - x1;
         double BC = y2 - y1;
         double AB = sqrt(pow(AC,2) + pow(BC,2));
-        System.out.println("Distance between point A and point B is " + AB + ".");
+        System.out.println("Distance between point A(" + x1 +  "," + y1 + ")" + " and point B("
+                + x2 +  "," + y2 + ")" + " is " + AB + ".");
     }
 }
