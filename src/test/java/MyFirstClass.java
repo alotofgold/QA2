@@ -4,14 +4,14 @@ import static java.lang.Math.sqrt;
 
 public class MyFirstClass {
     @Test
-    public void CountCharactersInString() {
+    public void countCharactersInString() {
         String str = "Cutting-edge organizations use test IO to supercharge their QA.";
         int count = str.length();
         System.out.println("Number of characters in the string is " + count + ".");
     }
 
     @Test
-    public void CreditCalc() {
+    public void creditCalc() {
         double percentPerYear = 22;
         double creditAmount = 50000;
         int creditTerm = 12;
